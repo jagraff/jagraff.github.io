@@ -1,5 +1,12 @@
+@page  
+{
+    /* this affects the margin in the printer settings */ 
+    margin: 10mm 20mm 0mm 20mm;  
+} 
+
 body {
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	
 }
 
 .title {
@@ -86,4 +93,17 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+
+
+
+
+/* Print styles */
+@media print 
+{
+    tr, td, th {page-break-inside:avoid}
+    thead {display:table-header-group}
+    .NoPrint {visibility:hidden; display:none}
+    a {color:#000000}
 }
