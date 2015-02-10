@@ -50,6 +50,9 @@ body {
 	line-height:20px;
 	padding:10px;
 	width:850px;
+	
+	background-image: url("http://www.blogcdn.com/www.autoblog.com/media/2007/03/hotwheels_hsv_01.jpg");
+	background-size: contain;
 }
 
 ul {
