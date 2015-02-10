@@ -18,7 +18,7 @@ body {
 	line-height:20px;
 	padding:10px;
 	
-	padding-left:100px;
+	padding-left:130px;
 	
 	width:200px;
 	
@@ -32,7 +32,7 @@ body {
 	
 	display:block;
 	
-	width:90%;
+	width:95%;
 	height:2px;
 }
 
@@ -52,6 +52,10 @@ ul {
     padding-left: 40px;
     line-height:30px;
 } 
+
+ul.embedded {
+	list-style-type: circle;
+}
 
 h2 {
 	padding:5px;
